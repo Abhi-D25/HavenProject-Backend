@@ -186,19 +186,19 @@ div{
   top: 828px;
 }
 
-/* button{
+.submit-form{
   position: absolute;
   width: 128px;
   height: 55px;
   left: 771px;
   top: 828px;
-
+  
   background: #FFD36E;
   border-radius: 20px;
   border: none;
-} */
+}
 
-.submit-form{
+.submit-button{
   position: absolute;
   left: 9.04%;
   right: 6.78%;
@@ -216,7 +216,6 @@ div{
 
   color: #000000;
 }
-
 
 .venmo_icon{
   position: absolute;
