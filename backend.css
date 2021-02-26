@@ -49,7 +49,7 @@ div{
   border-radius: 20px;
 }
 
-label{
+.fontLabel{
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -61,7 +61,7 @@ label{
   color: #000000;
 }
 
-input{
+.inputBackground{
   background: #E2E2E2;
   border: 1px solid #000000;
   box-sizing: border-box;
