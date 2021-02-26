@@ -10,7 +10,7 @@ div{
   background: #FFFFFF;  
 }
 
-.rectangle{
+.rectangle_117{
   position: absolute;
   width: 567px;
   height: 89px;
@@ -186,7 +186,7 @@ div{
   top: 828px;
 }
 
-button{
+/* button{
   position: absolute;
   width: 128px;
   height: 55px;
@@ -196,7 +196,7 @@ button{
   background: #FFD36E;
   border-radius: 20px;
   border: none;
-}
+} */
 
 .submit-form{
   position: absolute;
@@ -216,6 +216,7 @@ button{
 
   color: #000000;
 }
+
 
 .venmo_icon{
   position: absolute;
@@ -265,3 +266,210 @@ button{
 
   color: #000000;
 }
+  
+  /* .form-header {
+    margin: auto;
+  
+  } */
+
+  /* Contact Us Page */
+.form-header h2{
+  font-weight: 400;
+  size: 22px;
+  line-height: 29.96px;
+}
+  
+.container {
+  padding: 5%;
+  color: #000000;
+  font-family: Open Sans;
+}
+  
+#fcf-form {
+  display:block;
+}
+  
+.fcf-body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  padding: 10%;
+  padding-bottom: 5%;
+  border-radius: 10px;
+  max-width: 100%;
+}
+  
+  .fcf-form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  .fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #E3E3E3;
+    background-clip: padding-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+  }
+  
+  textarea.fcf-form-control {
+    font-family: -apple-system, Arial, sans-serif;
+    height: auto;
+  }
+  
+  label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+  }
+  
+  .fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+  }
+  
+  .fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .fcf-btn {
+        transition: none;
+    }
+  }
+  
+  .fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+  }
+  
+  .fcf-btn:focus, .fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .fcf-btn-primary {
+    color: black;
+    font-family: Open Sans;
+    background-color: #FFD36E;
+    border-color: #FFD36E;
+  }
+  
+  #DavisBranchButton{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    left: 5%;
+    top: 10%;
+    background: #A4D3FF;
+    border-radius: 10px;
+  }
+  #NDHSBranchButton{
+    position: relative;
+    width: 110px;
+    height: 40px;
+    left: 5%;
+    top: 10%;
+    background: #C69FE3;
+    border-radius: 10px;
+  }
+  /* .button{
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  } */
+  .form-header{
+    padding-bottom: 0%;
+  }
+  .rectangle{
+    width: 161px;
+    height: 33px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFD36E;
+    font-size: 14px;
+    font-family: Open Sans;
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box1{
+    position: relative;
+    width: 282px;
+    height: 244px;
+    left: 10%;
+    top: 10%;
+    border: 5px solid #A4D3FF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    float:left;
+  } 
+  
+  .box2{
+    position: relative;
+    width: 282px;
+    height: 244px;
+    left: 10%;
+    top: 10%;
+    border: 5px solid #C69FE3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    float: left;
+  } 
+  
+  .boxes{
+    display: flex;
+    justify-content: space-between;
+  }
